@@ -23,3 +23,10 @@ body {
   .topnav a.active {
     background-color: #379683;
   }
+
+  .homeText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #05386b;
+    text-align: center;
+  }
