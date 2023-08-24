@@ -19,10 +19,6 @@ body {
   .topnav a:hover {
     background-color: #edf5e1;
   }
-  
-  .topnav a.active {
-    background-color: #CAEBF2;
-  }
 
   .homeText {
     font-family: 'Roboto', sans-serif;
