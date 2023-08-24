@@ -60,8 +60,5 @@ body {
   text-align: center;
   padding: 20px;
   background-color: #EFEFEF;
-  margin: 20px;
-  border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   outline: red dashed 1px;
 }
