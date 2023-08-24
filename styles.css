@@ -10,11 +10,13 @@ body {
   background-color: #EFEFEF;
   overflow: hidden;
   padding: 10px 20px;
+  outline: red dashed 1px;
 }
 
 .left-nav {
   display: flex;
   align-items: center;
+  outline: red dashed 1px;
 }
 
 .left-nav a {
@@ -26,6 +28,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   margin-right: 10px;
+  outline: red dashed 1px;
 }
 
 .topnav a:hover {
@@ -37,6 +40,7 @@ body {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
+  outline: red dashed 1px;
 }
 
 .topnav #contact-button {
@@ -46,6 +50,7 @@ body {
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  outline: red dashed 1px;
 }
 
 .homeText {
@@ -53,4 +58,5 @@ body {
   font-size: 30px;
   color: #A9A9A9;
   text-align: center;
+  outline: red dashed 1px;
 }
