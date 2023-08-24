@@ -53,18 +53,15 @@ body {
   outline: red dashed 1px;
 }
 
-.homeText {
+.section {
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   color: #A9A9A9;
   text-align: center;
-  outline: red dashed 1px;
-}
-
-.section {
   padding: 20px;
   background-color: #EFEFEF;
   margin: 20px;
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  outline: red dashed 1px;
 }
