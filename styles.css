@@ -3,54 +3,36 @@ body {
   outline: red dashed 1px;
 }
 
+/*Add background colour to navbar*/
 .topnav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #EFEFEF;
   overflow: hidden;
-  padding: 10px 20px;
   outline: red dashed 1px;
 }
 
-.left-nav {
-  display: flex;
-  align-items: center;
-  outline: red dashed 1px;
-}
-
-.left-nav a {
-  color: #FF3B3F;
+/*Style the links inside the navigation bar*/
+.topnav a{
+  float: left;
+  color: #f44336;
   text-align: center;
-  text-decoration: none;
   padding: 14px 16px;
-  font-size: 18px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-right: 10px;
-  outline: red dashed 1px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
+/*Change the color of the links on hover*/
 .topnav a:hover {
-  background-color: #edf5e1;
+  background-color: #caebf2;
 }
 
-.topnav #brand {
-  flex: 1;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  outline: red dashed 1px;
+/*Add a colour to the active/current link*/
+.topnav a.active{
+  background-color: #caebf2;
 }
 
-.topnav #contact-button {
-  padding: 10px 20px;
-  background-color: #f44336;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-  outline: red dashed 1px;
+/*Right-aligned section inside the top navigation*/
+.topnav-right{
+  float: right;
 }
 
 .section {
