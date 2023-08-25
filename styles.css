@@ -22,10 +22,6 @@ body {
   color: #ff3b3f;
 }
 
-.topnav a.active {
-  color: #ff3b3f;
-}
-
 .topnav-right {
   float: right;
 }
