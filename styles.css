@@ -44,6 +44,9 @@ body {
   height: 100vh;
   background-color: #EFEFEF;
   outline: red dashed 1px;
+  background-image: url("layered-waves-haikei.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .section {
