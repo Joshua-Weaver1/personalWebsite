@@ -1,14 +1,17 @@
+/* Add a neutral background color to the body */
 body {
   margin: 0;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   background-color: #EFEFEF;
 }
 
+/* Add a white background color to the top navigation */
 .topnav {
   overflow: hidden;
   background-color: white;
 }
 
+/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: black;
@@ -18,10 +21,12 @@ body {
   font-size: 17px;
 }
 
+/* Change link properties when hovered over */
 .topnav a:hover {
   color: #ff3b3f;
 }
 
+/* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
 }
