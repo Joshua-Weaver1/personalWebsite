@@ -39,6 +39,7 @@ body {
   font-size: 30px;
   color: #A9A9A9;
   text-align: center;
+  height: 100vh;
   background-color: #EFEFEF;
   outline: red dashed 1px;
 }
