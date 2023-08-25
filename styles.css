@@ -34,6 +34,52 @@ body {
   float: right;
 }
 
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 100px 20vw;
+}
+
+.blue {
+  background: blue;
+}
+
+.red {
+  background: red;
+}
+
+.pink {
+  background: pink;
+}
+
+.neutral {
+  background: #EFEFEF;
+}
+
+.custom-shape-divider-bottom-1692977775 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1692977775 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 200px;
+}
+
+.custom-shape-divider-bottom-1692977775 .shape-fill {
+  fill: #FF3B3F;
+}
+
 .homeSection {
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
@@ -44,12 +90,9 @@ body {
   height: 100vh;
   background-color: #EFEFEF;
   outline: red dashed 1px;
-  background-image: url("wave-haikei3.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 
-.section {
+.section2 {
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   color: #A9A9A9;
