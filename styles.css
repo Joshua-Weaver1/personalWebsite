@@ -125,3 +125,34 @@ section {
 .custom-shape-divider-bottom-1693068480 .shape-fill {
   fill: #84CDCA;
 }
+
+.aboutme {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutme > * {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.aboutme-content {
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.aboutme-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutme-photo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+
