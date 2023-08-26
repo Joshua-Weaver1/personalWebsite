@@ -55,7 +55,7 @@ section {
 }
 
 .pink {
-  background: #ff0066;
+  background: #0066FF;
 }
 
 .dark {
@@ -104,6 +104,19 @@ section {
 
 .layer1 {
   background-image: url(layered-waves-haikei.svg);
+}
+
+.layer2 {
+  background-image: url(stacked-waves-haikei.svg);
+}
+
+.flip {
+  transform: rotate(180deg);
+}
+
+.blob-motion {
+  position: absolute;
+  transform: translate(-20%);
 }
 
 /* .homeSection {
