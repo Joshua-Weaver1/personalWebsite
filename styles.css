@@ -84,3 +84,44 @@ section {
 .layered-waves h1 {
   font-size: 86px;
 }
+
+.custom-shape-divider-top-1693068364 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1693068364 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 300px;
+}
+
+.custom-shape-divider-top-1693068364 .shape-fill {
+  fill: #C38D9D;
+}
+
+.custom-shape-divider-bottom-1693068480 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1693068480 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 300px;
+}
+
+.custom-shape-divider-bottom-1693068480 .shape-fill {
+  fill: #84CDCA;
+}
