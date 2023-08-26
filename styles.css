@@ -95,7 +95,7 @@ section {
 }
 
 .spacer {
-  aspect-ratio: 960/300;
+  height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -118,29 +118,3 @@ section {
   position: absolute;
   transform: translate(-20%);
 }
-
-/* .homeSection {
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  color: #A9A9A9;
-  text-align: center;
-  padding-top: 50px;
-  vertical-align: middle;
-  height: 100vh;
-  background-color: #EFEFEF;
-  outline: red dashed 1px;
-  background-image: url("wave-haikei3.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
-.section2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  color: #A9A9A9;
-  text-align: center;
-  overflow: hidden;
-  height: 100vh;
-  background-color: #EFEFEF;
-  outline: red dashed 1px;
-} */
