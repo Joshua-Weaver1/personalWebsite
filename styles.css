@@ -3,14 +3,14 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   color: white;
-  background: #202731;
+  background: #7bc1a9;
   overflow-x: hidden;
 }
 
 /* Add a white background color to the top navigation */
 .topnav {
   overflow: hidden;
-  background-color: black;
+  background-color: white;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -20,7 +20,7 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -29,7 +29,7 @@ body {
 
 /* Change link properties when hovered over */
 .topnav a:hover {
-  color: #ff3b3f;
+  color: #7bc1a9;
 }
 
 /* Right-aligned section inside the top navigation */
@@ -46,75 +46,37 @@ section {
   padding: 100px 20vw;
 }
 
-.blue {
-  background: #3c31dd;
+.orange {
+  background: #e27d5f;
 }
 
-.red {
-  background: #dd3f31;
+.light-blue {
+  background: #84cdca;
 }
 
-.pink {
-  background: #0066FF;
+.sand {
+  background: #e8a87c;
 }
 
-.dark {
-  background: #0f0f10;
+.purple {
+  background: #c38d9d;
 }
 
-.bubble::after {
-  content: '';
-  border-top-left-radius: 50% 100%;
-  border-top-right-radius: 50% 100%;
-  position: absolute;
-  bottom: 0;
-  height: 85%;
-  width: 100%;
-  background-color: #0f0f10;
-  z-index: -1;
+.dgreen {
+  background: #40b3a2;
 }
 
-.wave {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
+.lgreen {
+  background: #7bc1a9;
 }
 
-.wave svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 200px;
-}
-
-.wave .shape-fill {
-  fill: #1D1D1D;
-}
-
-.spacer {
+.layered-waves {
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.layer1 {
-  background-image: url(layered-waves-haikei.svg);
-}
-
-.layer2 {
-  background-image: url(stacked-waves-haikei.svg);
-}
-
-.flip {
-  transform: rotate(180deg);
-}
-
-.blob-motion {
-  position: absolute;
-  transform: translate(-20%);
+  background-image: url(welcome_layered_waves.svg);
+  text-align: center;
+  padding-top: 100px;
 }
