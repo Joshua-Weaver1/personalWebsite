@@ -1,8 +1,9 @@
 /* Add a neutral background color to the body */
 body {
   margin: 0;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  background-color: #EFEFEF;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background: #202731;
 }
 
 /* Add a white background color to the top navigation */
@@ -34,7 +35,62 @@ body {
   float: right;
 }
 
-.homeSection {
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 100px 20vw;
+}
+
+.blue {
+  background: #3c31dd;
+}
+
+.red {
+  background: #dd3f31;
+}
+
+.pink {
+  background: #ff0066;
+}
+
+.dark {
+  background: #202731;
+}
+
+.curve {
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  bottom: 0;
+}
+
+.curve::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: #202731;
+  transform: translate(85%, 60%);
+}
+
+.curve::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: #3c31dd;
+  transform: translate(-4%, 40%);
+  z-index: -1;
+}
+
+/* .homeSection {
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   color: #A9A9A9;
@@ -58,4 +114,4 @@ body {
   height: 100vh;
   background-color: #EFEFEF;
   outline: red dashed 1px;
-}
+} */
