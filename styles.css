@@ -78,5 +78,6 @@ section {
   background-size: cover;
   background-image: url(welcome_layered_waves.svg);
   text-align: center;
+  font-size: 46px;
   padding-top: 100px;
 }
