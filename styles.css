@@ -10,7 +10,7 @@ body {
 /* Add a white background color to the top navigation */
 .topnav {
   overflow: hidden;
-  background-color: white;
+  background-color: black;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -20,7 +20,7 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
