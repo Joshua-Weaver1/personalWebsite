@@ -27,6 +27,16 @@ body {
   font-size: 17px;
 }
 
+/* Style the links inside the navigation bar bold */
+.topnav b {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 /* Change link properties when hovered over */
 .topnav a:hover {
   color: #7bc1a9;
@@ -37,6 +47,7 @@ body {
   float: right;
 }
 
+/* Define structure for a section */
 section {
   position: relative;
   display: flex;
@@ -70,6 +81,7 @@ section {
   background: #7bc1a9;
 }
 
+/* Wave for welcome section */
 .layered-waves {
   height: 100vh;
   width: 100%;
@@ -85,7 +97,7 @@ section {
   font-size: 86px;
 }
 
-.custom-shape-divider-top-1693068364 {
+.aboutme-wave-top {
   position: absolute;
   top: 0;
   left: 0;
@@ -94,18 +106,18 @@ section {
   line-height: 0;
 }
 
-.custom-shape-divider-top-1693068364 svg {
+.aboutme-wave-top svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 300px;
 }
 
-.custom-shape-divider-top-1693068364 .shape-fill {
+.aboutme-wave-top .shape-fill {
   fill: #C38D9D;
 }
 
-.custom-shape-divider-bottom-1693068480 {
+.aboutme-wave-bottom {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -115,14 +127,14 @@ section {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1693068480 svg {
+.aboutme-wave-bottom svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 300px;
 }
 
-.custom-shape-divider-bottom-1693068480 .shape-fill {
+.aboutme-wave-bottom .shape-fill {
   fill: #84CDCA;
 }
 
