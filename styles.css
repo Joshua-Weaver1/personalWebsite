@@ -14,7 +14,7 @@ body {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  z-index: 1;
+  z-index: 2;
 }
 
 /* Style the links inside the navigation bar */
@@ -151,20 +151,63 @@ section {
 .aboutme-content {
   font-size: 20px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .aboutme-photo {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .aboutme-photo img {
   max-width: 100%;
   max-height: 100%;
+  border-radius: 50%;
 }
 
+.custom-shape-divider-top-1693320820 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+}
 
+.custom-shape-divider-top-1693320820 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 200px;
+}
+
+.custom-shape-divider-top-1693320820 .shape-fill {
+  fill: #40B3A2;
+}
+
+.custom-shape-divider-bottom-1693320965 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.custom-shape-divider-bottom-1693320965 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 200px;
+}
+
+.custom-shape-divider-bottom-1693320965 .shape-fill {
+  fill: #40B3A2;
+}
 
 
