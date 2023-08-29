@@ -1,4 +1,4 @@
-@import "https://unpkg.com/open-props";
+/* @import "https://unpkg.com/open-props"; */
 
 /* Add a neutral background color to the body */
 body {
@@ -53,6 +53,12 @@ body {
 section {
   position: relative;
   align-items: center;
+  min-height: 100vh;
+  padding: 100px 5vw;
+}
+
+/* Define structure for projects section */
+#projects {
   min-height: 100vh;
   padding: 100px 5vw;
 }
@@ -172,9 +178,9 @@ section {
 }
 
 .aboutme-photo img {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 50%;
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10%;
 }
 
 .projects-tilt-top {
@@ -220,9 +226,33 @@ section {
 
 .media-scroller {
   display: grid;
-  gap: var(--size-3);
   grid-auto-flow: column;
-  grid-auto-columns: 20%;
 
   overflow-x: auto;
+  overscroll-behavior-inline: contain;
+
 }
+
+.media-element {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .media-element {
+    flex: 0 0 calc(100% - 20px); /* Each element takes up full width minus margin */
+    margin-right: 20px;
+    margin-bottom: 10px; /* Add vertical spacing */
+  }
+}
+
+
+
+
+
+
+
+
+
+
