@@ -52,6 +52,14 @@ body {
 /* Define structure for a section */
 section {
   position: relative;
+  align-items: center;
+  min-height: 100vh;
+  padding: 100px 5vw;
+}
+
+/* Define structure for contact section */
+#contact {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -212,6 +220,9 @@ section {
 
 .media-scroller {
   display: grid;
+  gap: var(--size-3);
   grid-auto-flow: column;
-  grid-auto-columns: 25%;
+  grid-auto-columns: 20%;
+
+  overflow-x: auto;
 }
