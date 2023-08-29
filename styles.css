@@ -1,3 +1,5 @@
+@import "https://unpkg.com/open-props";
+
 /* Add a neutral background color to the body */
 body {
   margin: 0;
@@ -206,4 +208,10 @@ section {
 
 .projects-tilt-bottom .shape-fill {
   fill: #40B3A2;
+}
+
+.media-scroller {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 25%;
 }
