@@ -232,6 +232,8 @@ section {
 }
 
 .media-element {
+  height: 400px;
+  width: 500px;
   display: grid;
   grid-template-rows: min-content;
   gap: 20px;
@@ -240,6 +242,12 @@ section {
   border-radius: 10px;
   margin-right: 20px;
   padding: 10px;
+}
+
+.media-element > img {
+  inline-size: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }
 
 @media (max-width: 600px) {
