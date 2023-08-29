@@ -257,12 +257,11 @@ section {
   }
 }
 
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 10px;
+}
 
-
-
-
-
-
-
-
-
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
