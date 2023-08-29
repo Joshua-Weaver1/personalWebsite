@@ -232,7 +232,12 @@ section {
 }
 
 .media-element {
-  flex: 0 0 auto;
+  display: grid;
+  grid-template-rows: min-content;
+  gap: 20px;
+  padding: 20px;
+  background: #40B3A2;
+  border-radius: 10px;
   margin-right: 20px;
   padding: 10px;
 }
