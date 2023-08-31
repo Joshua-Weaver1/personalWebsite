@@ -47,13 +47,6 @@ body {
   float: right;
 }
 
-/* Hide the topnav-right class when the screen width is less than or equal to 768px */
-@media (max-width: 768px) {
-  .topnav-right {
-    display: none;
-  }
-}
-
 /* Define structure for a section */
 section {
   position: relative;
