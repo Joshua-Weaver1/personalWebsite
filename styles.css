@@ -15,26 +15,18 @@ body {
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   z-index: 2;
+  padding: 10px 0;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Style the links inside the navigation bar bold */
+.topnav a,
 .topnav b {
-  float: left;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  display: inline-block; /* Display the links as blocks */
 }
 
 /* Change link properties when hovered over */
