@@ -5,12 +5,13 @@ body {
   color: white;
   background: #7bc1a9;
   overflow-x: hidden;
+  width: 100%;
   outline: red dashed 3px;
 }
 
 /* Add a white background color to the top navigation */
 .topnav {
-  overflow-x: hidden;
+  overflow: hidden;
   background-color: white;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
@@ -44,6 +45,7 @@ body {
 
 /* Define structure for a section */
 section {
+  width: 100%;
   position: relative;
   align-items: center;
   min-height: 100vh;
@@ -53,12 +55,14 @@ section {
 
 /* Define structure for projects section */
 #projects {
+  width: 100%;
   min-height: 100vh;
   padding: 100px 5vw;
 }
 
 /* Define structure for contact section */
 #contact {
+  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
