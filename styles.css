@@ -5,6 +5,7 @@ body {
   color: white;
   background: #7bc1a9;
   overflow-x: hidden;
+  outline: red dashed 3px;
 }
 
 /* Add a white background color to the top navigation */
@@ -13,9 +14,10 @@ body {
   background-color: white;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 90%; /* Full width */
+  width: 100%; /* Full width */
   z-index: 2;
   padding: 10px 0;
+  outline: red dashed 3px;
 }
 
 /* Style the links inside the navigation bar */
@@ -27,6 +29,7 @@ body {
   text-decoration: none;
   font-size: 17px;
   display: inline-block; /* Display the links as blocks */
+  outline: red dashed 3px;
 }
 
 /* Change link properties when hovered over */
@@ -45,6 +48,7 @@ section {
   align-items: center;
   min-height: 100vh;
   padding: 100px 5vw;
+  outline: red dashed 3px;
 }
 
 /* Define structure for projects section */
@@ -152,6 +156,7 @@ section {
 .aboutme > * {
   flex: 1;
   box-sizing: border-box;
+  outline: red dashed 3px;
 }
 
 .aboutme-content {
@@ -239,6 +244,7 @@ section {
   overflow-x: auto;
   overscroll-behavior-inline: contain;
 
+  outline: red dashed 3px;
 }
 
 .media-element {
@@ -251,12 +257,14 @@ section {
   border-radius: 20px;
   margin-right: 50px;
   padding: 30px;
+  outline: red dashed 3px;
 }
 
 .media-element > img {
   inline-size: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
+  outline: red dashed 3px;
 }
 
 @media (max-width: 600px) {
@@ -283,4 +291,5 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
+  outline: red dashed 3px;
 }
