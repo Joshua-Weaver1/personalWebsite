@@ -92,7 +92,7 @@ section {
   background: #7bc1a9;
 }
 
-/* Wave for welcome section
+/*Wave for welcome section*/
 .layered-waves {
   height: 100vh;
   width: 100%;
@@ -106,7 +106,7 @@ section {
 
 .layered-waves h1 {
   font-size: 86px;
-} */
+}
 
 .aboutme-wave-top {
   position: absolute;
