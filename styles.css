@@ -181,6 +181,24 @@ section {
   border-radius: 10%;
 }
 
+@media (max-width: 768px) {
+  .aboutme {
+    flex-direction: column; /* Stack items vertically on narrow screens */
+  }
+
+  .aboutme-content,
+  .aboutme-photo {
+    width: 100%; /* Make each item take up full width */
+    max-width: none; /* Remove max-width restrictions */
+    margin: 0; /* Remove margin for each item */
+    padding: 20px; /* Add padding for spacing */
+  }
+
+  .aboutme-photo {
+    order: -1; /* Change the order of the photo div to come before content */
+  }
+}
+
 .projects-tilt-top {
   position: absolute;
   top: 0;
