@@ -5,6 +5,7 @@ body {
   color: white;
   background: #7bc1a9;
   overflow-x: hidden;
+  width: 100%;
 }
 
 /* Add a white background color to the top navigation */
