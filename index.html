@@ -148,13 +148,15 @@
         <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script>
             function sendEmail(){
+                const email = document.getElementById("email").value;
+                const password = process.env.EMAIL_PASSWORD; // Retrieve the secret
                 Email.send({
-                    Host : "smtp.elasticemail.com",
-                    Username : "username",
-                    Password : "password",
-                    To : 'them@website.com',
-                    From : "you@isp.com",
-                    Subject : "This is the subject",
+                    Host : "smtp.gmail.com",
+                    Username : "joshua.weaverr@gmail.com",
+                    Password: password, // Use the secret
+                    To : 'joshua.weaverr@gmail.com',
+                    From : email,
+                    Subject : "New Contact Form Enquiry",
                     Body : "And this is the body"
                 }).then(
                     message => alert(message)
