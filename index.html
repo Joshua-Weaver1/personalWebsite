@@ -137,30 +137,14 @@
 
     <!--Contact Section-->
     <section id="contact">
-        <form onsubmit="sendEmail(); reset(); return false;">
+        <form action="https://formsubmit.co/joshua.weaverr@gmail.com" method="POST">
             <h3>Contact Me!</h3>
             <input type="text" id="name" placeholder="Your Name" required>
-            <!-- <input type="email" id="email" placeholder="Email" required> -->
+            <input type="email" id="email" placeholder="Email" required>
             <input type="text" id="phone" placeholder="Phone Number" required>
             <textarea id="message" rows="4" placeholder="Message here"></textarea>
             <button type="submit">Send</button>
         </form>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script>
-            function sendEmail(){
-                Email.send({
-                    Host : "smtp.elasticemail.com",
-                    Username : "joshua.weaverr@gmail.com",
-                    Password : "30649D7E19A91E2C61CD23BE864A987DD7D9",
-                    To : 'joshua.weaverr@gmail.com',
-                    From : 'joshua.weaverr@gmail.com',
-                    Subject : "New Contact Form Enquiry",
-                    Body : "And this is the body"
-                }).then(
-                    message => alert(message)
-                );
-            }
-        </script>
     </section>
 
 </body>
