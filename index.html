@@ -137,7 +137,7 @@
 
     <!--Contact Section-->
     <section id="contact">
-        <form>
+        <form onsubmit="sendEmail(); reset(); return false;">
             <h3>Contact Me!</h3>
             <input type="text" id="name" placeholder="Your Name" required>
             <input type="email" id="email" placeholder="Email" required>
@@ -145,6 +145,22 @@
             <textarea id="message" rows="4" placeholder="Message here"></textarea>
             <button type="submit">Send</button>
         </form>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    Host : "smtp.elasticemail.com",
+                    Username : "username",
+                    Password : "password",
+                    To : 'them@website.com',
+                    From : "you@isp.com",
+                    Subject : "This is the subject",
+                    Body : "And this is the body"
+                }).then(
+                    message => alert(message)
+                );
+            }
+        </script>
     </section>
 
 </body>
