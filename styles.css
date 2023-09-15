@@ -40,6 +40,37 @@ body {
   float: right;
 }
 
+/* Add a responsive class to the topnav when the screen is less than 768px wide */
+@media (max-width: 768px) {
+  .topnav a {
+      display: none;
+  }
+
+  .topnav b {
+    display: none;
+}
+
+  .topnav a.icon {
+      float: right;
+      display: block;
+  }
+
+  .topnav.responsive {
+      position: relative;
+  }
+
+  .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+
+  .topnav.responsive a {
+      display: block;
+      text-align: center;
+  }
+}
+
 /* Define structure for a section */
 section {
   position: relative;
