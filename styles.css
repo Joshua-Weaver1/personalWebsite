@@ -83,13 +83,13 @@ body {
 section {
   position: relative;
   align-items: center;
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 100px 5vw;
 }
 
 /* Define structure for projects section */
 #projects {
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 100px 5vw;
 }
 
@@ -97,7 +97,7 @@ section {
   display: flex;
   justify-content: center; /* Horizontally center the form */
   align-items: center; /* Vertically center the form */
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 100px 5vw;
 }
 
