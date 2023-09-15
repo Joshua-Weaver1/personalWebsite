@@ -394,33 +394,3 @@ form button{
   font-size: 25px;
   line-height: 60px;
 }
-
-.wrapper .icon .tooltip{
-  position: absolute;
-  top: 0px;
-  background: white;
-  font-size: 20px;
-  padding: 10px 12px;
-  border-radius: 25px;
-  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.4 cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .icon:hover .tooltip{
-  top: -70px;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.wrapper .icon .tooltip::before{
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 15px;
-  background: white;
-  bottom: -8px;
-  left: 50%;
-  transform: translateX(-50%) rotate(45deg);
-}
