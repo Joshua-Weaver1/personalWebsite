@@ -72,6 +72,13 @@ body {
   }
 }
 
+/* Hide the menu icon when the screen width is wider than 768px */
+@media (min-width: 769px) {
+  .topnav a.icon {
+      display: none;
+  }
+}
+
 /* Define structure for a section */
 section {
   position: relative;
