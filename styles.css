@@ -79,8 +79,8 @@ body {
   }
 }
 
-/* Define structure for a section */
-section {
+/* Define structure for about section */
+#about {
   position: relative;
   align-items: center;
   min-height: 90vh;
@@ -89,6 +89,7 @@ section {
 
 /* Define structure for projects section */
 #projects {
+  position: relative;
   min-height: 90vh;
   padding: 100px 5vw;
 }
@@ -99,6 +100,14 @@ section {
   align-items: center; /* Vertically center the form */
   min-height: 80vh;
   padding: 100px 5vw;
+}
+
+#socials {
+  display: grid;
+  min-height: 20vh;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff);
 }
 
 .orange {
@@ -350,4 +359,68 @@ form button{
   width: 150px;
   margin: 20px auto 0;
   border-radius: 30px;
+}
+
+.wrapper{
+  display: inline-flex;
+  text-align: center;
+}
+
+.wrapper .icon{
+  margin: 0 20px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.wrapper .icon span{
+  position: relative;
+  height: 60px;
+  width: 60px;
+  display: block;
+  background: white;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 2;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+
+.wrapper .icon span i{
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.wrapper .icon .tooltip{
+  position: absolute;
+  top: 0px;
+  background: white;
+  font-size: 20px;
+  padding: 10px 12px;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4 cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip{
+  top: -70px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.wrapper .icon .tooltip::before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: white;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
 }
