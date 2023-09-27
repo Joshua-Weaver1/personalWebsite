@@ -394,3 +394,34 @@ form button{
   font-size: 25px;
   line-height: 60px;
 }
+
+@media (max-width: 768px) {
+  .wrapper .icon{
+    margin: 0 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .wrapper .icon span{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: white;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  }
+
+  .wrapper .icon span i{
+    font-size: 20px;
+    line-height: 50px;
+  }
+}
