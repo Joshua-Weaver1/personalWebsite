@@ -310,6 +310,7 @@ body {
     flex: 0 0 calc(100% - 20px); /* Each element takes up full width minus margin */
     margin-right: 20px;
     margin-bottom: 10px; /* Add vertical spacing */
+    width: 30vh;
   }
 }
 
