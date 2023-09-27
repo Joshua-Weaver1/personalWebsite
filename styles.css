@@ -305,7 +305,7 @@ body {
   object-fit: cover;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .media-element {
     flex: 0 0 calc(100% - 20px); /* Each element takes up full width minus margin */
     margin-right: 20px;
