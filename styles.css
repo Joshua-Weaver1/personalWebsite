@@ -73,7 +73,7 @@ body {
 }
 
 /* Hide the menu icon when the screen width is wider than 768px */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .topnav a.icon {
       display: none;
   }
@@ -81,8 +81,18 @@ body {
 
 /* Define structure for about section */
 #home {
-  height: 60vh;
+  height: 70vh;
   text-align: center;
+}
+
+#home h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 80px;
+}
+
+#home h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
 }
 
 /* Define structure for about section */
